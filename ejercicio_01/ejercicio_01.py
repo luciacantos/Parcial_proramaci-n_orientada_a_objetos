@@ -20,10 +20,12 @@ class Libro:
     def descripción(self):
         print("Título: "+ self.getTítulo() + "Autor: " + self.getAutor() + "Editorial: " + self.getEditorial() + "Páginas: " + str(self.getPáginas()) + "Año: " + str(self.getAño()))
 
-    título = raw_input("Introduce el nombre: ") #cadena caracteres
-    autor = raw_input("Introduce el autor:") #cadena caracteres
-    editorial = raw_input("Introcuce la editorial: ") #cadena caracteres
-    páginas = input("Número de páginas: ") #entero
-    año = input("Año de lanzamiento: ") #entero 
-    
+título = input("Introduce el nombre: ") #cadena caracteres
+autor = input("Introduce el autor:") #cadena caracteres
+editorial = input("Introcuce la editorial: ") #cadena caracteres
+páginas = input("Número de páginas: ") #entero
+año = input("Año de lanzamiento: ") #entero 
+
+mostrar_libro = Libro(título, autor, editorial, páginas, año)
+mostrar_libro.descripción()
 
