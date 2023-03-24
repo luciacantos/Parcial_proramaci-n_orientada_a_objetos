@@ -1,0 +1,10 @@
+
+Clase Libro
+
+    Valores
+        Título: cadena
+        Autor: cadena
+        Editorial: cadena
+        Páginas: entero
+        Año: entero
+    Métodos:
