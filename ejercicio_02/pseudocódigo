@@ -1,0 +1,37 @@
+Clase Animal
+    Atributos
+        Edad: entero
+        Especie: entero
+    Métodos:
+        alimentarse()
+        moverse()
+
+Clase Mamífero(hereda de Animal)
+    Atributos
+        Vertebrados
+    Métodos
+        Lactancia()
+
+Clase Ovíparo (hereda de Animal)
+    Atributos
+
+    Métodos
+        PoneHuevos
+
+Clase Gato (Hereda de Mamífero) # hereda de mamífero y a su vez de su superclase Animal
+    Atributos:
+        Color: cadena
+    Métodos:
+        Maullar()
+
+Clase Pollo(hereda de Ovíparo) # hereda de ovíparo que a su vez hereda de su superclase Animal´´
+    Atributos
+        Color: cadena
+    Métodos:
+        HAcerSonido()
+
+Clase Ornitorrinco(herena de mamífero y Ovíparo) # que ambos a su vez heredan de la clase animal
+    Atributos
+        Tamaño
+    Métodos:
+        Nadar()
