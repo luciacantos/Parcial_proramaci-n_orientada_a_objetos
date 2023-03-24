@@ -1,0 +1,4 @@
+clase Cuenta_bacaria
+    Atributos
+        Cuenta: entero
+        Titular: cadena

@@ -1,7 +1,7 @@
 
 Clase Libro
 
-    Valores
+    Atributos
         Título: cadena
         Autor: cadena
         Editorial: cadena
