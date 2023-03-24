@@ -10,7 +10,7 @@ class Libro:
         return self.tíyulo
     def getAutor(self):
         return self.autor
-    def getEditorial(/self):
+    def getEditorial(self):
         return self.editorial
     def getPáginas(self):
         return self.páginas
