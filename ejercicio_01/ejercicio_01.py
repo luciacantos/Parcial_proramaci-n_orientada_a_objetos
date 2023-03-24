@@ -7,7 +7,7 @@ class Libro:
         self.año = año
 
     def getTítulo(self):
-        return self.tíyulo
+        return self.título
     def getAutor(self):
         return self.autor
     def getEditorial(self):
@@ -16,3 +16,10 @@ class Libro:
         return self.páginas
     def getAño(self):
         return self.año
+
+    def descripción(self):
+        print("Título: "+ self.getTítulo() + "Autor: " + self.getAutor() + "Editorial: " + self.getEditorial() + "Páginas: " + str(self.getPáginas()) + "Año: " + str(self.getAño()))
+
+    título = raw_input("Introduce el nombre: ") #cadena caracteres
+    autor = raw_input("Introduce el autor:") #cadena caracteres
+    editorial = raw_input("Introcuce la editorial: ") #cadena caracteres
