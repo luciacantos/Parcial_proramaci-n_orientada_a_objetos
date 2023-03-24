@@ -23,3 +23,7 @@ class Libro:
     título = raw_input("Introduce el nombre: ") #cadena caracteres
     autor = raw_input("Introduce el autor:") #cadena caracteres
     editorial = raw_input("Introcuce la editorial: ") #cadena caracteres
+    páginas = input("Número de páginas: ") #entero
+    año = input("Año de lanzamiento: ") #entero 
+    
+
