@@ -2,9 +2,9 @@
 Clase Libro
 
     Atributos
-        Título: cadena
-        Autor: cadena
-        Editorial: cadena
-        Páginas: entero
-        Año: entero
+        Título: string
+        Autor: string
+        Editorial: string
+        Páginas: int
+        Año: date
     Métodos:
